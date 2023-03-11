@@ -11409,7 +11409,7 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  text-shadow: 1px 1px 2px #000000;
+  text-shadow: 1px 1px 1px #000000;
   color: #fff;
   background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
@@ -11810,17 +11810,37 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding: 10px;
 }
 
-.map-responsive{
+.map-responsive {
   overflow:hidden;
   padding-bottom:72.5%;
   position:relative;
   height:0;
 }
 
-.map-responsive iframe{
+.map-responsive iframe {
   left:0;
   top:0;
   height:100%;
   width:100%;
   position:absolute;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #292929;
+  /* border-radius: 10px; */
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

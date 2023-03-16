@@ -3941,6 +3941,7 @@ textarea.form-control-lg {
 }
 
 .nav-link {
+  /* text-shadow: 0px 0px 0px #000000; */
   display: block;
   padding: 0.5rem 1rem;
   color: #ffc800;
@@ -5487,7 +5488,11 @@ textarea.form-control-lg {
   overflow-y: auto;
   outline: 0;
 }
-
+.modal_video {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
 .modal-dialog {
   position: relative;
   width: auto;
@@ -11301,7 +11306,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -11313,7 +11318,7 @@ p {
   font-weight: 400;
   /* font-style: italic; */
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 768px) {
@@ -11404,6 +11409,12 @@ p {
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
   }
+}
+.join_us:hover {
+  color: #000;
+  background-color: #fed136;
+  border-color: #fed136;
+  text-shadow: 0px 0px 0px #000000;
 }
 header.masthead {
   padding-top: 10.5rem;
@@ -11787,42 +11798,27 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.join_us:hover {
-  color: #000;
-  background-color: #fed136;
-  border-color: #fed136;
-  text-shadow: 0px 0px 0px #000000;
-}
-
+/* Google Maps & Form */
 /* .gforms {
   display: block;
   margin-left: auto;
   margin-right: auto;
 } */
-
-.drone_vid {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.gmaps {
-  padding: 10px;
-}
-
 .map-responsive {
   overflow:hidden;
   padding-bottom:72.5%;
   position:relative;
   height:0;
 }
-
 .map-responsive iframe {
   left:0;
   top:0;
   height:100%;
   width:100%;
   position:absolute;
+}
+.gmaps {
+  padding: 10px;
 }
 
 /* SCROLLBAR */
